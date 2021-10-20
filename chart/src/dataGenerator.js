@@ -1,4 +1,5 @@
 var cuid = require('cuid');
+var dex_data = require('../dexes_data.json');
 
 var X_MIN = 1;
 var X_MAX = 100;
@@ -14,6 +15,7 @@ ns.generate = function(n) {
   for (var i = 0; i < n; i++) {
    res.push(this.generateDatum([X_MIN, X_MAX]));
   }
+  console.log(dex_data);
   return res;
 };
 
