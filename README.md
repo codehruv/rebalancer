@@ -24,7 +24,7 @@ TODO implement random forests on data
 
 ## Dataset cleaning
 
-TODO make sure tasks 
+TODO make sure columns have cleaned data
 
 
 #  Web app
